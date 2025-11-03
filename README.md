@@ -90,7 +90,7 @@ III. **Database Server**
    - Create database and user:
      ```sql
      CREATE DATABASE studentdb;
-     CREATE USER 'rushi'@'<APP-SERVER-PRIVATE-IP>' IDENTIFIED BY 'dase';
+     CREATE USER 'pushkaraj'@'<APP-SERVER-PRIVATE-IP>' IDENTIFIED BY 'dase';
      GRANT ALL PRIVILEGES ON studentdb.* TO 'rushi'@'<APP-SERVER-PRIVATE-IP>';
      FLUSH PRIVILEGES;
 
